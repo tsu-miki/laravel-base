@@ -8,6 +8,8 @@
 
 ・Nginx:1.18
 
+・node：14.2
+
 ・MySQL:8.0
 
 ・（Laravel:8.x）

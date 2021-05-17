@@ -6,7 +6,9 @@ services:
       - ./backend:/work
 
   web:
-    image: nginx:1.18-alpine
+    build:
+      context: .
+      dockerfile: ./infra/nginx/Dockerfile
     ports:
       - 10080:80
     volumes:
