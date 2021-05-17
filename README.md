@@ -16,17 +16,20 @@
 
 ### Set up（Your project）
 1. git clone https://github.com/tsuzuki-auk/Laravel_base.git
-2. cd backend
-3. Clone your project.
-4. cd ../
-5. cp .env.example .env
-6. docker-compose up -d --build
+2. git clone (your project) backend
+3. cd backend
+4. cp .env.example .env
+5. .env DB config set up
+6. docker-compose up -d
 7. docker-compose exec app bash
-8. Please, set up your project.
+8. php artisan key:generate
+9. .env DB config set up
+10. Please, set up your project.
 
 ### Set up（Laravel8.x）
 1. git clone https://github.com/tsuzuki-auk/Laravel_base.git
-2. docker-compose up -d --build
-3. docker-compose exec app bash
-4. composer create-project --prefer-dist "laravel/laravel=8.*" .
-5. http://127.0.0.1:10080/
+2. mkdir backend
+3. docker-compose up -d --build
+4. docker-compose exec app bash
+5. composer create-project --prefer-dist "laravel/laravel=8.*" .
+6. http://127.0.0.1:10080/
