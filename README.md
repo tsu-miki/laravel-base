@@ -1,6 +1,6 @@
 ## Laravel×Docker環境構築
 ### 構築環境
-2021/04/15 更新
+2021/07/16 更新
 
 ・PHP:7.4
 
@@ -32,4 +32,4 @@
 3. docker-compose up -d --build
 4. docker-compose exec app bash
 5. composer create-project --prefer-dist "laravel/laravel=8.*" .
-6. http://127.0.0.1:10080/
+6. http://127.0.0.1:3000/
