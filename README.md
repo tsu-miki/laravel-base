@@ -1,10 +1,10 @@
 ## Laravel×Docker環境構築
 ### 構築環境
-2021/07/16 更新
+2021/08/11 更新
 
-・PHP:7.4
+・PHP:7.4.20
 
-・Composer:1.10
+・Composer:2.0
 
 ・Nginx:1.18
 
